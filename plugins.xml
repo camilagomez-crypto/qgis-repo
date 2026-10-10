@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugins>
+  <pyqgis_plugin name="Arañas Catastrales" version="1.0">
+    <description>Genera líneas araña entre predios seleccionados y la malla vial, validando cruces y detectando predios sin araña.</description>
+    <about>Genera líneas de conexión (arañas) entre los predios seleccionados de una capa catastral y la vía correspondiente en la malla vial. Valida cruces entre arañas y entre arañas/predios, y genera una capa aparte con los predios que quedaron sin araña.</about>
+    <version>1.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>aranas_plugin.zip</file_name>
+    <author_name>Claudia</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/aranas_plugin.zip</download_url>
+    <uploaded_by>Claudia</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Rastreador Técnico de Geoportales" version="1.0">
+    <description>Busca geoportales institucionales y visores ArcGIS evitando StoryMaps.</description>
+    <about>Esta herramienta realiza un rastreo profundo en motores de búsqueda para hallar visores de capas técnicos (WebAppBuilders) de municipios colombianos.</about>
+    <version>1.0</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>buscador_visores.zip</file_name>
+    <author_name>Ingeniería Geográfica</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/buscador_visores.zip</download_url>
+    <uploaded_by>Ingeniería Geográfica</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Gban" version="1.1">
+    <description>Plugin that enables geocoding/reverse geocoding in France using the BAN API.</description>
+    <about>GBAN is a plugin for QGis that enables geocoding/reverse geocoding in France using the BAN API (https://adresse.data.gouv.fr/api/).</about>
+    <version>1.1</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <homepage>https://github.com/jeremyk6/gban</homepage>
+    <file_name>gban.zip</file_name>
+    <author_name>Jérémy Kalsron</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/gban.zip</download_url>
+    <uploaded_by>Jérémy Kalsron</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/jeremyk6/gban/issues</tracker>
+    <repository>https://github.com/jeremyk6/gban</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="RAW Numerador" version="3.0">
+    <description>Herramienta para seleccionar y numerar predios con lógica</description>
+    <about>Herramienta para seleccionar y numerar predios con lógica</about>
+    <version>3.0</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>generador_placas.zip</file_name>
+    <author_name>Diego Rojas</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/generador_placas.zip</download_url>
+    <uploaded_by>Diego Rojas</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Gestor de Estilos" version="1.0.0">
+    <description>Aplica estilos a capas por prefijo (predeterminados o personalizados), con configuracion persistente, entradas ampliables y estilo de inconsistencias.</description>
+    <about>Plugin para aplicar estilos QML a capas de forma automatica segun el prefijo del nombre de la capa. Incluye estilos predeterminados (barrios, urbanizaciones, manzanas, predios, malla vial), soporte para estilos personalizados guardados entre sesiones, la posibilidad de agregar nuevas entradas y un boton para aplicar el estilo de inconsistencias.</about>
+    <version>1.0.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>gestor_estilos.zip</file_name>
+    <author_name>Yeider Suarez</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/gestor_estilos.zip</download_url>
+    <uploaded_by>Yeider Suarez</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Planos de Proyectos (Constructoras)" version="0.1">
+    <description>Carga los proyectos (GeoJSON) de cada constructora y permite validar/georreferenciar sus planos de urbanismo</description>
+    <about>Herramienta para cargar puntos de proyectos inmobiliarios (GeoJSON) y sus planos asociados (webp/pdf). Permite georreferenciar planos de urbanismo marcando la flecha de norte con 2 clics, y valida el resto de archivos (plantas de unidad, brochures, renders) en una ventana emergente ampliable al hacer clic sobre cada punto.</about>
+    <version>0.1</version>
+    <qgis_minimum_version>3.28</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>planos_qgis_tool.zip</file_name>
+    <author_name>Claudia</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/planos_qgis_tool.zip</download_url>
+    <uploaded_by>Claudia</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Validación Capas Administrativas Pasto" version="2.0">
+    <description>Plugin para validación y transferencia de capas administrativas de Pasto (SITI vs TELEF)</description>
+    <about>Plugin completo para la validación masiva de capas administrativas de la ciudad de Pasto.</about>
+    <version>2.0</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <file_name>plugin_validador.zip</file_name>
+    <author_name>Ciudad de Pasto - SIG</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/plugin_validador.zip</download_url>
+    <uploaded_by>Ciudad de Pasto - SIG</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="EstandarizacionDirecciones" version="0.1.0">
+    <description>Estandarizacion y comparacion de direcciones</description>
+    <about>Plugin para estandarizar y comparar direcciones entre capas.</about>
+    <version>0.1.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>qgis_direcciones_plugin_V_1_5_1.zip</file_name>
+    <author_name>Your Name</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/qgis_direcciones_plugin_V_1_5_1.zip</download_url>
+    <uploaded_by>Your Name</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Productivity Tracker" version="3.0 Final">
+    <description>Registra silenciosamente la actividad del usuario para generar análisis de productividad.</description>
+    <about>Este plugin funciona como un asistente fantasma para rastrear la productividad en QGIS, basado en KPIs definidos.</about>
+    <version>3.0 Final</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>QGISProductivityTracker.zip</file_name>
+    <author_name>Tu Nombre</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/QGISProductivityTracker.zip</download_url>
+    <uploaded_by>Tu Nombre</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Robot Cartografico" version="0.1">
+    <description>Observador de flujo de trabajo en QGIS: primer paso hacia un copiloto cartografico que aprende por demostracion</description>
+    <about>Registra eventos del flujo de trabajo (capas, atributos, acciones, algoritmos de Processing) en una base local, sin capturar pantalla ni teclado. Solo se activa cuando el interruptor esta en un estado distinto de "apagado".</about>
+    <version>0.1</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>robot_cartografico.zip</file_name>
+    <author_name>Claudia</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/robot_cartografico.zip</download_url>
+    <uploaded_by>Claudia</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Street View Cartografia" version="2.0">
+    <description>Herramienta para visualizar Street View, previsualizar imágenes y mejorar visibilidad de placas.</description>
+    <about>Herramienta para visualizar Street View, previsualizar imágenes y mejorar visibilidad de placas.</about>
+    <version>2.0</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <homepage>https://github.com/tu_usuario/validador_sp</homepage>
+    <file_name>solo_stree.zip</file_name>
+    <author_name>Camila Gomez</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/solo_stree.zip</download_url>
+    <uploaded_by>Camila Gomez</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/tu_usuario/validador_sp/issues</tracker>
+    <repository>https://github.com/tu_usuario/validador_sp</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Street View" version="4.4">
+    <description>Street View</description>
+    <about>Streetview allows you to open a web page with the Google Street View that highlights the part you have identified with two points (the base and target points) The target point is identified by dragging the base point</about>
+    <version>4.4</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <qgis_maximum_version>4.99</qgis_maximum_version>
+    <homepage>https://github.com/saccon/streetview-plugin/#readme</homepage>
+    <file_name>StreetView.zip</file_name>
+    <author_name>Saccon Fabio</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/StreetView.zip</download_url>
+    <uploaded_by>Saccon Fabio</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/saccon/streetview-plugin</tracker>
+    <repository>https://github.com/saccon/streetview-plugin</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Validador" version="1.1">
+    <description>Herramienta para captura de pantalla y vista Street View integrada.</description>
+    <about>Herramienta para captura de pantalla y vista Street View integrada.</about>
+    <version>1.1</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://camilagomez-crypto.github.io/qgis-repo/</homepage>
+    <file_name>validador.zip</file_name>
+    <author_name>Camila Gomez</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/validador.zip</download_url>
+    <uploaded_by>Camila Gomez</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <repository>https://github.com/camilagomez-crypto/qgis-repo</repository>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="ValidadorSP" version="1.0">
+    <description>Herramienta para validar placas de predios con sugerencias basadas en vecinos y vista Street View integrada.</description>
+    <about>Herramienta para validar placas de predios con sugerencias basadas en vecinos y vista Street View integrada.</about>
+    <version>1.0</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <homepage>https://github.com/tu_usuario/validador_sp</homepage>
+    <file_name>validar_sp.zip</file_name>
+    <author_name>Camila Gomez</author_name>
+    <download_url>https://camilagomez-crypto.github.io/qgis-repo/validar_sp.zip</download_url>
+    <uploaded_by>Camila Gomez</uploaded_by>
+    <create_date>2026-10-10</create_date>
+    <update_date>2026-10-10</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/tu_usuario/validador_sp/issues</tracker>
+    <repository>https://github.com/tu_usuario/validador_sp</repository>
+  </pyqgis_plugin>
+</plugins>
